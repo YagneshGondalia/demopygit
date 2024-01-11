@@ -1,11 +1,7 @@
 
-def sum(a, *b):
+def person(name, **data):
 
-    c = a
+    print(name)
+    print(data)
 
-    for i in b:
-        c = c + i
-
-    print(c)
-
-sum(5,6,34,78)
+person('navin', age=30, city='Mumbai', mob=98765)
