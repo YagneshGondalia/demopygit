@@ -1,6 +1,6 @@
 
-def person(name,age):
+def person(name,age=18):
     print(name)
-    print(age-5)
+    print(age)
 
-person(age=30, name='navin')
+person('navin')
