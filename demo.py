@@ -1,3 +1,7 @@
-print("Hello")
-print("Welcome to Telusko")
-print("I'm happy")
+
+def greet():
+    print("Hello")
+    print("Good Morning")
+
+
+greet()
