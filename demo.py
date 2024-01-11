@@ -1,6 +1,11 @@
 
-def person(name,age=18):
-    print(name)
-    print(age)
+def sum(a, *b):
 
-person('navin')
+    c = a
+
+    for i in b:
+        c = c + i
+
+    print(c)
+
+sum(5,6,34,78)
