@@ -1,6 +1,6 @@
 
 def person(name,age):
     print(name)
-    print(age)
+    print(age-5)
 
-person('navin',30)
+person(30, 'navin')
