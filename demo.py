@@ -1,10 +1,13 @@
 
 
+def update(x):
+    print(id(x))
+    x = 8
+    print(id(x))
+    print("x ", x)
 
-def add_sub(x,y):
-    c = x+y
-    d=x-y
-    return c,d
+a = 10
+print(id(a))
+update(a)
+print("a ", a)
 
-result1, result2 = add_sub(5,4)
-print(result1, result2)
