@@ -1,9 +1,18 @@
 
-def person(name, **data):
+def fib(n):
 
-    print(name)
+    a=0
+    b=1
+    print(a)
+    print(b)
 
-    for i,j in data.items():
-        print(i,j)
+    for i in range(2,n):
+        c=a+b
+        a=b
+        b=c
+        print(c)
 
-person('navin', age=30, city='Mumbai', mob=98765)
+
+fib(10)
+
+
